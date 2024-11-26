@@ -65,7 +65,7 @@ public final class UseSet {
          */
         boolean allEven = true;
         for (final String element : set) {
-            if (Integer.parseInt(element) % 1 != 0) {
+            if (Integer.parseInt(element) % 3 != 0) {
                 allEven = false;
                 break;
             }
